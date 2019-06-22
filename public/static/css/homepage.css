@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div.two_one{
+	clear: both;
+	display:flex;
+	
+}
+ul.two{
+	font-size:1.2rem;
+	list-style: none;
+}
+ul.two>li{
+	float: left;
+	padding-left:5rem;
+}
+ul.two>li>a{
+	font-family:"幼圆","宋体","华文行楷";
+	text-decoration: none;
+	color:#aaa;
+}
+a.two_first{
+	color: #00ff00 !important;
+	margin-left:5rem;
+}
+ul.two>li>a:hover{
+	color:#f0f;
+}
+
+
+
+
+
+ .mukuai2 div span{
+    color:#fff;
+}
+.mukuai2 img{transition:transform 1s;}
+.mukuai2 img:hover{transform:scale(1.1);}
+
+
+
+
+
+
+/*.mukuai3,.mukuai4,.mukuai5{
+    background:#0f0;
+    padding-left:1rem;
+    color: #f231f2;
+    border-top-left-radius:1rem;
+    border-bottom-left-radius:1rem;
+}
+.mukuai4{color: #ffe319;}
+.mukuai5{color: #f00;}
+.mukuai3>img,.mukuai4>img,.mukuai5>img{
+    width: 1.3rem;
+    animation-duration:5s;
+}
+
+.mukuai3_1 p,.mukuai3_2 p,.mukuai3_3 p{
+    text-align:center;
+    color:#aaa;
+}
+.mukuai3_1 div>img{ animation-duration:5s;}
+.mukuai3_2>div>img{
+    animation-duration:5s;
+}
+
+.mukuai3_3 div>img{ animation-duration:5s;} */
+
+
+
+/* 流行指数 */
+.mukuai44_1 p{background:#f00;color:#fff;border-radius:0.5rem;}
+.mukuai44 img{
+    border-radius:0.8rem;
+    cursor:pointer;
+    transition:transform 1s;
+}
+.mukuai44 img:hover{transform: scale(1.1);}
+.mukuai44{
+    border-bottom-style: solid;
+    color:#aaa;
+    padding-bottom:2rem;
+}
+
+
+
+
+/* 流行指数榜 */
+div.last_left{
+    width: 11rem;
+    height:97rem;
+    border:1px solid #ddd;
+    float: left;
+}
+div.last_left>p{
+    border-bottom:1px solid #ddd;
+    padding:1rem;
+    font-weight: 500;
+    font-size:1.2rem;
+}
+div.last_left>ul{
+    list-style: none;
+}
+div.last_left>ul>li{
+    padding:0.7rem;
+}
+li.last_left_p{
+    background:#31c27c;
+    color:#fff;
+}
+div.last_left>ul>li:hover{color:#0f0;cursor: pointer;}
+li.last_left_p:hover{color:#fff!important;}
+
+
+/* 右侧大模块 */
+div.last_right{
+    display:flex;
+    padding:2rem;
+}
+div.last_right>b{
+    font-size:1.2rem;
+}
+div.last_right>p{
+    padding:0.1rem 1rem 0 1rem;
+}
+div.last_right>a{padding-top:0.1rem;}
+
+
+div.last_right2{
+   display:inline-flex;
+}
+div.last_right2>p{
+   border:1px solid #ddd;
+    margin-left:1rem;
+   width:8rem;height:2.5rem;
+   text-align:center;
+   line-height:2.5rem;
+   cursor:pointer;
+}
+
+div.last_right2>p:first-child{
+       margin-left:2rem;
+       background:#31c27c;
+       border:1px solid #31c27c;
+}
+div.last_right2>p:not(:first-child):hover{background: #ccc;}
+
+
+
+	/*这是�?后的底部*/
+    table{
+        width:100%;
+    }
+    .th1{
+        width:41%;
+    }
+    .th2{width:13%;}
+    td{height:3rem;color:#9e9e9e;}
+    /*这里是末尾的版本信息*/
+    div p.foot1{
+        width:100%;height:3rem;
+        background:#0f0;text-align:center;
+    }
+    div p.foot1+p.foot1{
+        margin-top:-1rem;
+    }
+    
+
+
+/* 歌曲排行榜 */
+    div.last_right3{
+        display: flex;
+        padding-left:8rem;
+    }
+    div.last_right3>span{
+        font-size:0.8rem;color:#666;
+    }
+    div.last_right3>span:first-child{
+        padding-right:10rem;
+    }
+    div.last_right3>span:not(:first-child){
+        padding-left:15rem;
+    }
+
+
+
+
+
+
+    div.last_right4{
+        display:flex;
+        padding:2rem 0 0 2rem;
+    }
+    div.last_right4>span{
+        width:2rem;height: 2rem;
+        color:#f00;
+        font-size:1.3rem;
+        padding:2rem;
+    }
+    div.last_right4>div>p{
+        margin-bottom:-0.4rem;
+        text-align: center;
+    }
+    div.last_right4>div{
+        padding:1.5rem 0 0 2rem;
+        display:block;
+    }
+    div.last_right4>div>img{
+        margin-top:-1rem;
+        cursor: pointer;
+    }
+    div.last_right4>p{
+        padding:1rem;
+        width: 17rem;
+        line-height:4rem;
+        font-size:0.8rem;
+        cursor:pointer;
+    }
+    div.last_right4>p:hover{color:#0f0;}
+    div.last_right4>b{
+        font-size:0.8rem;
+        font-weight: normal;
+        line-height:5rem;
+        width:17rem;
+        cursor:pointer;
+    }
+    div.last_right4>b:hover{color:#0f0;}
+    div.last_right4>b:last-child{
+        width: 5rem;
+        font-size:0.8rem;
+        font-weight: normal;
+        line-height:5rem;
+    }
+    div.a>span{
+        color:#000;
+    }
+    

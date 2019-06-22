@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div.two_one{
+	clear: both;
+	display:flex;
+	
+}
+ul.two{
+	font-size:1.2rem;
+	list-style: none;
+}
+ul.two>li{
+	float: left;
+	padding-left:5rem;
+}
+ul.two>li>a{
+	font-family:"幼圆","宋体","华文行楷";
+	text-decoration: none;
+	color:#aaa;
+}
+a.two_first{
+	color: #00ff00 !important;
+	margin-left:5rem;
+}
+ul.two>li>a:hover{
+	color:#f0f;
+}
+
+
+
+/* 视频 */
+div#d1{width:100%;
+    height:400px;
+    background:#ddd;
+    display:flex;
+}
+video{
+    float:left;
+    opacity:.8;
+	outline:0;
+	box-shadow:0 -10px 23px #666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 开始 */
+div.first>ul{
+    list-style: none;
+    display:flex;
+}
+div.first>ul>li{
+    float: left;
+    padding:1rem;
+}
+div.first>ul>li:nth-child(2){
+    background:#31c27c;
+    cursor: pointer;
+    color:#fff;
+}
+div.first>ul>li:not(:first-child):not(:nth-child(2)):hover{
+    color:#0f0;
+    cursor: pointer;
+}
+
+
+
+
+
+div.mv_head{
+    display:flex;
+}
+div.mv{
+    padding:2rem;
+}
+div.mv>img:hover{cursor: pointer;}
+div.mv>p:hover{
+    color:#0f0;
+    cursor: pointer;
+}
+div.mv>b{
+    display:block;
+    color:#bbb;
+    font-weight: normal;
+}
+div.mv>a{
+    color:#bbb!important;
+}
+div.mv_img>img{
+    transform:translate(-11rem,-1.1rem);
+}
+div.mv_img{
+    display:inline-block;
+    width: 2rem;height:1rem;
+     overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+div.five>ul{
+    display:flex;
+    list-style: none;
+    margin-left:20rem;
+}
+div.five>ul>li{
+    padding:1rem 1.5rem 1rem 1.5rem;
+    color:#aaa;
+    margin-right:1rem;
+}
+div.five>ul>li:first-child{
+    background:#31c27c;
+    color:#fff;
+}
+div.five>ul>li:not(:first-child):hover{
+    background:#31c27c;
+    color:#fff;
+    cursor: pointer;
+}

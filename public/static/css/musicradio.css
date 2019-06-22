@@ -1,0 +1,93 @@
+*{
+	margin: 0;padding: 0;
+}
+div.two_one{
+	clear: both;
+	display:flex;
+}
+ul.two{
+	font-size:1.2rem;
+	list-style: none;
+}
+ul.two>li{
+	float: left;
+	padding-left:5rem;
+}
+ul.two>li>a{
+	font-family:"幼圆","宋体","华文行楷";
+	text-decoration: none;
+	color:#aaa;
+}
+a.two_first{
+	color: #00ff00 !important;
+	margin-left:5rem;
+}
+ul.two>li>a:hover{
+	color:#f0f;
+}
+
+
+/* 定义淡入淡出效果 */
+ul.in{
+	height:30rem;
+	opacity:1;
+}
+ul.fade{
+	height:30rem;
+	opacity:0.1;
+	overflow:hidden;
+	transition:all 1s linear;
+}
+
+div.start{
+	background: rgba(221, 221, 221, 0.51);
+	/*height:35rem;*/
+}
+div.first{
+	position:relative;
+	display: inline-flex;
+	float:left;
+}
+div.first>ul{
+	position:fixed;
+}
+div.first>ul>li{
+	padding:1rem;
+}
+div.first>ul>li:hover{color:#0f0;cursor:pointer;}
+
+/*�ڶ�����*/
+div.two{
+	margin-left:10rem;
+}
+div.two>p{
+	color:#aaa;
+	padding-top:1rem;
+}
+/*��Ƭ����*/
+div.two1>ul>li>img{
+	margin-top:2rem;
+	padding-left:1rem;
+	transition:transform 2s;
+}
+div.two1>ul>li>img:hover{
+	transform:scale(1.2);
+	cursor:pointer;
+}
+div.two1>ul>li>a{
+	padding:1rem 0 0 1rem;
+	text-decoration: none;
+	color:#000;
+	display:inline-block;
+}
+div.two1>ul>li>a:hover{
+	color:#0f0;
+}
+div.two1>ul>li>p{
+	padding-left:1rem;
+	color:#aaa;
+}
+
+
+
+
